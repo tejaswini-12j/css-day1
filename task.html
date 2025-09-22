@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Selectors Table</title>
+</head>
+<body>
+    <style>
+        h2{
+            color:deeppink
+        }
+        table{
+            color:darkmagenta;
+            background-color:beige;
+        }
+        .abc{
+            color:blue;
+        }
+        td{
+            color:red;
+        }
+        #xy{
+            color:darkgreen !important;
+        }
+        #hi{
+            color:darkred !important;
+        }
+    </style>
+
+  <h2>CSS Selectors Table</h2>
+
+  <table border="1" cellspacing="2" cellpadding="10">
+    <tr class="abc"><th>selectors</th></tr>
+    <tr>
+      <th >simple</th>
+      <th>donate with symbol</th>
+      <th>meaning</th>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" id="xy">Element</td>
+      <td align="center" valign="middle" id="hi">&lt;p&gt;</td>
+      <td>Selects all paragraph elements--element has third priority</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" id="xy">Class</td>
+      <td align="center" valign="middle" id="hi">.</td>
+      <td>Selects all elements with class="intro"--compared to element class has more priority</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" id="xy">ID</td>
+      <td align="center" valign="middle" id="hi">#</td>
+      <td>Selects the element with id="main"--compared to class id has more priority and id is unique</td>
+    </tr>
+    <tr>
+        <td align="center" valign="middle" id="xy">grouping </td>
+        <td align="center" valign="middle" id="hi">,</td>
+        <td>styles all elements together--after element grouping has next priority</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" id="xy">Universal</td>
+      <td align="center" valign="middle" id="hi">*</td>
+      <td>Selects all elements-- last priority to universal</td>
+    </tr>
+    <tr class="abc"><th>combinator</th></tr>
+    <tr class="abc"><th>Attribute</th></tr>
+    <tr class="abc"><th>Pseudo-classes</th></tr>
+    <tr class="abc"><th>Pseudo-elements</th>
+    </tr>
+  </table>
+
+</body>
+</html>
